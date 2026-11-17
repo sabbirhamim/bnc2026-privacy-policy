@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BNC 2026 Privacy Policy</title>
+<style>
+  /* Color: cream page / navy text / green accent, lifted straight from the
+     app's own lib/theme.ts tokens, so this reads as the same product.
+     Type: Space Grotesk for headings, Inter for body text.
+     Layout: single narrow reading column, left eyebrow rail for section labels. */
+  :root {
+    --bg: #FAF7F1;
+    --surface: #FFFFFF;
+    --border: #EAE6DA;
+    --fg: #1A1A1A;
+    --fg-muted: #6B6A62;
+    --primary: #0E2E52;
+    --accent: #5B7F1E;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15171B;
+      --surface: #1E2126;
+      --border: #2C2F35;
+      --fg: #F2F1ED;
+      --fg-muted: #A6A59C;
+      --primary: #8FB4E8;
+      --accent: #7FA83A;
+      color-scheme: dark;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding: 56px 16px 80px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+
+  .masthead { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .mark {
+    width: 40px; height: 40px; border-radius: 999px; flex: none;
+    background: var(--accent);
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 17px;
+  }
+  .masthead-text .conf { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 15px; color: var(--primary); }
+  .masthead-text .org { font-size: 12.5px; color: var(--fg-muted); }
+
+  h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: clamp(28px, 5vw, 38px);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    margin: 28px 0 6px;
+  }
+  .updated { color: var(--fg-muted); font-size: 13px; margin-bottom: 36px; }
+
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-size: 15.5px;
+    line-height: 1.55;
+    margin-bottom: 40px;
+  }
+  .summary strong { color: var(--primary); }
+
+  section { margin-bottom: 36px; }
+  .eyebrow {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  p { line-height: 1.65; font-size: 15px; margin: 0 0 12px; max-width: 62ch; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { line-height: 1.65; font-size: 15px; margin-bottom: 8px; max-width: 60ch; }
+  li::marker { color: var(--accent); }
+
+  .item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 10px;
+  }
+  .item .label { font-weight: 600; color: var(--primary); }
+
+  footer {
+    border-top: 1px solid var(--border);
+    margin-top: 48px;
+    padding-top: 20px;
+    color: var(--fg-muted);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="masthead">
+    <div class="mark">BNC</div>
+    <div class="masthead-text">
+      <div class="conf">Beyond Nature and Culture 2026</div>
+      <div class="org">Dept. of English, Daffodil International University</div>
+    </div>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated: November 17, 2026</div>
+
+  <div class="summary">
+    <strong>In short:</strong> this app does not require an account, does not collect personal information, and does not track you across other apps or websites.
+  </div>
+
+  <section>
+    <div class="eyebrow">What this app does not do</div>
+    <ul>
+      <li>No sign-up, login, or user accounts for attendees.</li>
+      <li>No collection of your name, email, phone number, or any other personal identifier.</li>
+      <li>No advertising, no ad tracking, no analytics SDKs that profile individual users.</li>
+      <li>No access to your contacts, photos, microphone, or camera.</li>
+      <li>No sharing or selling of any data to third parties.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="eyebrow">What the app does collect, and why</div>
+    <div class="item">
+      <span class="label">Location</span> (optional, only if you grant permission). Used only to show your position on the in-app campus map and calculate walking directions to a building you search for. Your location is never stored on our servers, never logged, and never shared. It is used live, on your device, for the map feature only, and is discarded as soon as you leave the Campus Map screen.
+    </div>
+    <div class="item">
+      <span class="label">Push notification token</span> (optional, only if you grant permission). If you allow notifications, your device is assigned an anonymous push token (a random identifier with no link to your name or identity) so the conference organizers can send you live announcements, such as a session going live. This token cannot be used to identify you personally.
+    </div>
+    <div class="item">
+      <span class="label">Admin accounts</span>: a small number (1-3) of conference organizers have email/password accounts to post announcements. This policy does not apply to them as users of the app in the same way. Their accounts are provisioned manually by the organizers for operational purposes, not by public sign-up.
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Data retention</div>
+    <p>Push tokens and any cached data are tied to this conference's database, which is deactivated after the conference concludes. This app has a planned one-month operational lifespan; see the organizers if you have questions about this timeline.</p>
+  </section>
+
+  <section>
+    <div class="eyebrow">Children's privacy</div>
+    <p>This app is intended for conference attendees (academics, researchers, students) and is not directed at children under 13.</p>
+  </section>
+
+  <section>
+    <div class="eyebrow">Changes to this policy</div>
+    <p>If this policy changes, the "Last updated" date above will change accordingly.</p>
+  </section>
+
+  <footer>
+    Questions about this policy or the app can be directed to the Department of English, Daffodil International University, via the contact details listed in the app's Contact screen or the official conference website.
+  </footer>
+</div>
+</body>
+</html>
